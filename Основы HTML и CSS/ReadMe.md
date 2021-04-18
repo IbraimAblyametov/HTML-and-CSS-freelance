@@ -19,3 +19,31 @@
 |`<footer></footer>`||
 |`<link rel="" href="">`||
 
+# Таблица свойств CSS
+|Свойство| Характеристика |
+|------------------------|----------------------------------------------|
+|`padding: 0px 0px 0px 0px`||
+|`margin:`||
+|`color:`||
+|`font-size:`||
+|`font-family:`||
+|`font-weight:`||
+|`width: 1110px;`||
+|`display: flex;`||
+|`justify-content: space-between;`||
+|`align-items: center;`||
+|`text-decoration: none;`||
+|`padding-top/bottom/left/right:`||
+|`margin-top: auto;`||
+|`align-items: center;`||
+|`background:`|background: url(../img/fon.png) no-repeat center top / cover #3ABDF5;|
+|||
+|||
+|||
+|||
+|||
+|||
+|||
+
+
+
