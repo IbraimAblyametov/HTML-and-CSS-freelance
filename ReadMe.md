@@ -1,6 +1,4 @@
 ## Изучаю: 
-* Python
-* C++
 * HTML
 * CSS
 * JavaScript
