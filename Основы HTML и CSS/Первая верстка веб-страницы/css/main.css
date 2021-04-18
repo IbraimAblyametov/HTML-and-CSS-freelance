@@ -1,0 +1,87 @@
+body {
+  padding: 0; /*обнуляем всегда*/
+  margin: 0;  /*обнуляем всегда*/
+  color: #000000; /*цвет шрифта*/
+  font-size: 25px;  /*размер шрифта*/
+  font-family: 'Montserrat', serif; /*включение шрифта*/
+  font-weight: 400;
+}
+
+.conteiner {
+  width: 1160px;
+  margin: 0 auto;
+  display: flex; /*распределяет элементы по краям и по всему блокупоровну*/
+  justify-content: space-between; /*распределяет элементы по краям и по всему блоку поровну поровну*/
+  align-items: center; /* выставляет элементы по середине блока*/
+  /*border: 1px solid red;*/
+}
+
+a {
+  color: #000;   /*меняем цвет ссылок*/
+  text-decoration: none;   /*убираем нижнее подчеркивание*/
+}
+
+
+.header {
+  padding-top: 49px;
+  background: #3ABDF5;
+}
+
+.logo {
+  width: 154px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact {
+  width: 525px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.window {
+  padding-top: 85px;
+  margin: 0 auto;
+  width: 1111px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.zagol {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.table1 {
+  width: 453px;
+  height: 222px;
+  background: #58F8DB;
+  border-radius: 20px;
+}
+.zagol1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+.text1 {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+.table2 {
+  width: 453px;
+  height: 222px;
+  background: #E5EF73;
+  border-radius: 20px;
+}
+.zagol2 {
+  font-size: 40px;
+  font-weight: 500;
+}
+.text2 {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+}
