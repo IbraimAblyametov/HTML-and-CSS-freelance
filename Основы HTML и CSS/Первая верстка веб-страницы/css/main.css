@@ -8,8 +8,8 @@ body {
 }
 
 .conteiner {
-  width: 1160px;
-  margin: 0 auto;
+  width: 1110px;
+  margin: 0 auto; /**/
   display: flex; /*распределяет элементы по краям и по всему блокупоровну*/
   justify-content: space-between; /*распределяет элементы по краям и по всему блоку поровну поровну*/
   align-items: center; /* выставляет элементы по середине блока*/
@@ -23,15 +23,27 @@ a {
 
 
 .header {
-  padding-top: 49px;
-  background: #3ABDF5;
+  width: 1920px; /*Задаем ширину главной страницы (1 по счету)*/
+  height: 1080px; /*Задаем высоту главной страницы (1 по счету)*/
+  padding-top: 49px; /*отступаем от верхней границы*/
+  display: flex;
+  justify-content: space-between;
+  background: url(../img/fon.png) no-repeat center top / cover #3ABDF5; /**/
+}
+
+.vector2 {
+  margin-top: auto; /*спускаем изображение в самый низ (макс отступаем от потолка)*/
+}
+
+.vector3 {
+  margin-top: auto;
 }
 
 .logo {
   width: 154px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; /*выстраивает иконку и строку в одну линию*/
 }
 
 .contact {
@@ -41,7 +53,7 @@ a {
 }
 
 .window {
-  padding-top: 85px;
+  padding-top: 85px; /* отступаем от conteiner*/
   margin: 0 auto;
   width: 1111px;
   display: flex;
@@ -53,35 +65,15 @@ a {
   font-weight: 600;
 }
 
-.table1 {
-  width: 453px;
-  height: 222px;
-  background: #58F8DB;
-  border-radius: 20px;
-}
-.zagol1 {
-  font-size: 40px;
-  font-weight: 500;
-}
-.text1 {
-  font-weight: 600;
-  font-size: 20px;
-  text-align: center;
+
+.section1 { /* Эти блоки нужно использовать для остального сайта (кроме начального окна и конечного окна) + их может быть несколько*/
+  width: 1920px;
+  height: 1080px;
+  background: url(../img/fon.png) no-repeat center top / cover #3ABDF5;
 }
 
-
-.table2 {
-  width: 453px;
-  height: 222px;
-  background: #E5EF73;
-  border-radius: 20px;
-}
-.zagol2 {
-  font-size: 40px;
-  font-weight: 500;
-}
-.text2 {
-  font-weight: 600;
-  font-size: 20px;
-  text-align: center;
+.footer {
+  width: 1920px;
+  height: 1080px;
+  background: #FFFFFF;
 }
