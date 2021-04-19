@@ -18,6 +18,7 @@
 |`<section></section>`|тег для "серединный" страниц сайта, их может быть несколько, это завит от веб-дизайнера|
 |`<footer></footer>`|тег для конечной страницы сайта|
 |`<link rel="" href="">`|этот тег позволяет подключать в html файл другие файлы (scss, css), также с помощью этого тега подключаются шришты. Этот тег пишеться в блоке <head></head> |
+|`<center></center>`| размещает объект по середине листа |
 
 # Таблица свойств CSS
 |Свойство| Характеристика |
@@ -30,18 +31,19 @@
 |`font-weight:`| толщина шрифта, чтобы ее менять требуется подключать еще различные формы этого шрифта|
 |`width: `|ширина объекта|
 |`display: flex;`||
-|`justify-content: space-between;`||
+|`justify-content: space-between;`| раскидывает элементы одинаково на всю длину блока в котором они находяться|
 |`align-items: center;`||
 |`text-decoration: none;`| убирает всю декорацию шрифта (подчеркивание), кроме шрифта и размера|
-|`padding-top/bottom/left/right:`||
+|`padding-top/bottom/left/right:`| |
 |`margin-top: auto;`||
 |`background:`| регулирует цвет. Также может содержать в себе изображение, но чтобы его подключить нужно ввести: background: url(../img/fon.png) no-repeat center top / cover #3ABDF5;|
-|`:hover`||
-|`transition-duration: 0.4s;`||
-|`text-align: center;`||
-|`border-radius: 20px;`||
+|`:hover`| наведение на объект мышью |
+|`transition-duration: 0.4s;`| время эффекта |
+|`text-align: center;`| располагает текс по середине объекта|
+|`border-radius: 20px;`| закругления углов фигуры |
 |`box-sizing: border-box;`||
-|`border: 5px solid #000000;`||
+|`border: 5px solid #000000;`| толщина и цвет границы фигуры |
+
 
 
 

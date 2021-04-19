@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+.header {
+  width: 1920px;
+  height: 1080px;
+  background: url(../img/heart1.png) no-repeat center top / cover, linear-gradient(261.36deg, #C88AEE -48.18%, #EBC155 103.52%);
+}
+.navigation {
+  margin-left: 80px;
+  margin-right: 80px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.window {
+  height: 1020px;
+  background: url(../img/sea.svg) no-repeat center top / cover ;
+}
+
+.hero {
+  padding-top: 414px;
+}
+.play_display:hover {
+  transform: scale(1.2);
+  transition-duration: 0.2s;
+}
+
+.logo_menu {
+  display: flex;
+  align-items: center;
+}
+
+.logo_name {
+  font-family: 'Comfortaa', serif;
+  font-size: 28,44px;
+  font-weight: 400;
+}
+
+.buttoms {
+  display: flex;
+}
+.buttom1 {
+  padding-top: 11px;
+  padding-bottom: 11px;
+  text-align: center;
+  color: black;
+  width: 130px;
+  background: white;
+  border: 1px solid #18A0FB;
+  border-radius: 6px;
+}
+.buttom2 {
+  margin-left: 12px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  text-align: center;
+  color: white;
+  width: 130px;
+  background: #18A0FB;
+  border-radius: 6px;
+}
+
+.buttom3 {
+  color: white;
+  width: 161.4px;
+  padding: 15.3px;
+  text-align: center;
+  background: #18A0FB;
+  border-radius: 6px;
+}
+
+.buttom1:hover {
+  color: white;
+  transform: scale(1.1);
+  background: #C88AEE;
+  transition-duration: 0.2s;
+}
+.buttom2:hover {
+  color: #000000;
+  transform: scale(1.1);
+  background: #EBC155;
+  transition-duration: 0.2s;
+}
+.buttom3:hover {
+  transform: scale(1.1);
+  color: black;
+  background: linear-gradient(256.96deg, #C88AEE 2.83%, #EBC155 102.85%);
+  transition-duration: 0.1s;
+}
+
+.text_1 {
+  padding-top: 86px;
+  text-align: center;
+  color: black;
+  font-size: 56px;
+  margin-bottom: 40px;
+}
+
+.text_1:hover {
+  color: white;
+  transition-duration: 0.2s;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.ttt:hover {
+  transform: scale(1.1);
+  color: white;
+  transition-duration: 0.3s;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo:hover {
+  transform: scale(1.2);
+  transition-duration: 0.2s;
+}
+.menu {
+  width: 388px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 71px;
+  font-size: 15px;
+}
