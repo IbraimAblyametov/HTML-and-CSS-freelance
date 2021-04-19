@@ -6,7 +6,6 @@ body {
   font-family: 'Montserrat', serif; /*включение шрифта*/
   font-weight: 400;
 }
-
 .conteiner {
   width: 1110px;
   margin: 0 auto; /**/
@@ -15,13 +14,14 @@ body {
   align-items: center; /* выставляет элементы по середине блока*/
   /*border: 1px solid red;*/
 }
-
 a {
   color: #000;   /*меняем цвет ссылок*/
   text-decoration: none;   /*убираем нижнее подчеркивание*/
 }
-
-
+a:hover {
+  color: #FFF;
+  transition-duration: 0.4s;
+}
 .header {
   width: 1920px; /*Задаем ширину главной страницы (1 по счету)*/
   height: 1080px; /*Задаем высоту главной страницы (1 по счету)*/
@@ -30,28 +30,23 @@ a {
   justify-content: space-between;
   background: url(../img/fon.png) no-repeat center top / cover #3ABDF5; /**/
 }
-
 .vector2 {
   margin-top: auto; /*спускаем изображение в самый низ (макс отступаем от потолка)*/
 }
-
 .vector3 {
   margin-top: auto;
 }
-
 .logo {
   width: 154px;
   display: flex;
   justify-content: space-between;
   align-items: center; /*выстраивает иконку и строку в одну линию*/
 }
-
 .contact {
   width: 525px;
   display: flex;
   justify-content: space-between;
 }
-
 .window {
   padding-top: 85px; /* отступаем от conteiner*/
   margin: 0 auto;
@@ -59,21 +54,68 @@ a {
   display: flex;
   justify-content: space-between;
 }
-
 .zagol {
+  padding-left: 15px;
   font-size: 50px;
   font-weight: 600;
 }
-
-
+.zagol:hover {
+  color: #FFFFFF;
+  transition-duration: 0.4s;
+}
+p {
+  padding-left: 37.19px;
+  padding-bottom: 58px;
+  width: 380.98px;
+  font-weight: 600;
+  font-size: 20px;
+  align-items: center;
+  text-align: center;
+}
+.tabl1 {
+  width: 455.37px;
+  background: #58F8DB;
+  border-radius: 20px;
+}
+.zag1 {
+  padding: 20px;
+  margin-top: 110px;
+  margin-left: 36px;
+  font-weight: 500;
+  font-size: 39px;
+}
+.tabl2 {
+  width: 455.37px;
+  background: #E5EF73;
+  border-radius: 20px;
+}
+.tabl1:hover {
+  border: 5px solid #000000;
+  box-sizing: border-box;
+  color: white;
+  background: #20CDAE;
+  transition-duration: 0.5s;
+}
+.tabl2:hover {
+  border: 5px solid #000000;
+  box-sizing: border-box;
+  background: #EACE3B;
+  transition-duration: 0.5s;
+}
+.zag2 {
+  padding: 20px;
+  margin-top: 52px;
+  margin-left: 44px;
+  font-weight: 500;
+  font-size: 40px;
+}
 .section1 { /* Эти блоки нужно использовать для остального сайта (кроме начального окна и конечного окна) + их может быть несколько*/
   width: 1920px;
   height: 1080px;
-  background: url(../img/fon.png) no-repeat center top / cover #3ABDF5;
+  background: #FDDF76;
 }
-
 .footer {
   width: 1920px;
   height: 1080px;
-  background: #FFFFFF;
+  background: #6C95E4;
 }
