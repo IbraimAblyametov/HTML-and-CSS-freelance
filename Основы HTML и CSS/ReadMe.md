@@ -13,37 +13,35 @@
 |`<ul></ul>`|открывает и закрывает маркерованный список|
 |`<li></li>`|пункты в этом списке.|
 |`<span></span>`|обрамляет отдельный участок кода.|
-|`<dir></dir>`||
-|`<header></header>`||
-|`<section></section>`||
-|`<footer></footer>`||
-|`<link rel="" href="">`||
+|`<dir></dir>`| заключает контент в блоки|
+|`<header></header>`|тег для первой (главной) страницы сайта, для последующих сущ. уже другие теги |
+|`<section></section>`|тег для "серединный" страниц сайта, их может быть несколько, это завит от веб-дизайнера|
+|`<footer></footer>`|тег для конечной страницы сайта|
+|`<link rel="" href="">`|этот тег позволяет подключать в html файл другие файлы (scss, css), также с помощью этого тега подключаются шришты. Этот тег пишеться в блоке <head></head> |
 
 # Таблица свойств CSS
 |Свойство| Характеристика |
 |------------------------|----------------------------------------------|
 |`padding: 0px 0px 0px 0px`||
 |`margin:`||
-|`color:`||
-|`font-size:`||
-|`font-family:`||
-|`font-weight:`||
-|`width: 1110px;`||
+|`color:`| регулирует цвет шрифта|
+|`font-size:`| регулирует размер шрифта|
+|`font-family:`|включает шрифт|
+|`font-weight:`| толщина шрифта, чтобы ее менять требуется подключать еще различные формы этого шрифта|
+|`width: `|ширина объекта|
 |`display: flex;`||
 |`justify-content: space-between;`||
 |`align-items: center;`||
-|`text-decoration: none;`||
+|`text-decoration: none;`| убирает всю декорацию шрифта (подчеркивание), кроме шрифта и размера|
 |`padding-top/bottom/left/right:`||
 |`margin-top: auto;`||
-|`align-items: center;`||
-|`background:`|background: url(../img/fon.png) no-repeat center top / cover #3ABDF5;|
-|||
-|||
-|||
-|||
-|||
-|||
-|||
+|`background:`| регулирует цвет. Также может содержать в себе изображение, но чтобы его подключить нужно ввести: background: url(../img/fon.png) no-repeat center top / cover #3ABDF5;|
+|`:hover`||
+|`transition-duration: 0.4s;`||
+|`text-align: center;`||
+|`border-radius: 20px;`||
+|`box-sizing: border-box;`||
+|`border: 5px solid #000000;`||
 
 
 
